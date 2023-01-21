@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+
+include(${CMAKE_CURRENT_LIST_DIR}/wrt-acc-targets.cmake)
+check_required_components(wrt-acc)
