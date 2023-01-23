@@ -50,5 +50,5 @@ install(
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 # Targets
 install(EXPORT wrt-acc-targets
-	NAMESPACE acc::
+	NAMESPACE wrt::
 	DESTINATION ${CMAKE_INSTALL_DATADIR}/wrt-acc)
